@@ -10,7 +10,7 @@ You can see resource file list and read/write resource files with RRU.
 ### It can't
 - RRU can't read/write anything other than resource files.
 - RRU does not work with some resource files, unfortunatly :(
-- RRU can't fully write a file that is larger than original(See below).
+- RRU can't fully write a file (to ROM image) that is larger than original(See below).
 ### Note about writing files to ROM image
 When RRU writes a local file to ROM image, RRU does not update file size. So, logical file size is always same.
 When RRU meets a file with different size:
