@@ -18,7 +18,7 @@ When RRU meets a file with different size:
 - If file is bigger than original, RRU will still write to ROM image, but it will be truncated.
 ## Build
 RRU is written purely in C, and all you need to do is just compile rru.c.
-If you are using GCC, command is:
+If you are using GCC on Linux, command is:
 
 ```
 gcc -o rru rru.c
