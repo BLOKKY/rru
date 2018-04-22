@@ -1,7 +1,7 @@
 ## What is RRU?
 RRU stands for RISC OS(Raspberry Pi Version) ROM file utility.
 You can see resource file list and read/write resource files with RRU.
-**Please note that this utility has been only tested with RISC OS 5.23 ROM for Raspberry Pi.**
+**Please note that this utility has been only tested with RISC OS 5.23 and 5.24 ROM image for Raspberry Pi.**
 ## What it can, and can't do?
 ### It can
 - See list of resource files in ROM image.
