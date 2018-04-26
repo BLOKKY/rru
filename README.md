@@ -37,3 +37,5 @@ You can type ```rru``` to see help. And here are few examples(RISCOS.IMG is ROM 
 - ```rru write RISCOS.IMG Resources.BootFX.1920x1080 1920x1080.jpg```: Writes contents of 1920x1080.jpg(Local file) into ROM resource Resources.BootFX.1920x1080. This command can be used to replace RPi RISC OS's boot screen background. In fact, this utility was initially made for that purpose.
 ## Don't forget to backup!
 Please backup your original RISC OS ROM image before using this utility. This utility can potentially make your ROM image unbootable.
+## I know that this utility is kinda dirty :( ##
+The way this app finds a file entry is kinda dirty, but it works for now.
