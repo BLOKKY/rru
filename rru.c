@@ -44,7 +44,7 @@ static int findString(const char *str) {
 }
 
 static char *findNextFile(const char *rootDir, int *pSizeOut) {
-  int i, cnt, mod;
+  int cnt, mod;
   char lastChar;
   int prefixLen = strlen(rootDir) + 1;
   char *prefix = (char *) malloc(prefixLen + 1);
@@ -130,7 +130,7 @@ static int findFile(const char *path, int *pSizeOut) {
 
 int main(int argc, char **argv) {
   char *actionString, *romFilePath, *dstFilePath, *srcFilePath;
-  FILE *file, fInput;
+  FILE *file;
   int i, size1, size2, padSize;
 
   if(argc < 3) {
