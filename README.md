@@ -16,6 +16,13 @@ When RRU writes a local file to ROM image, RRU does not update file size. So, lo
 When RRU meets a file with different size:
 - If file is smaller than original, RRU writes the file and adds padding byte(zero) to fill the original file area.
 - If file is bigger than original, RRU will still write to ROM image, but it will be truncated.
+## Note about file listing
+RRU looks for files with these root directories:
+- Apps
+- Discs
+- Fonts
+- Resources
+- ThirdParty
 ## Build
 RRU is written purely in C, and all you need to do is just compile rru.c.
 If you are using GCC on Linux, command is:
